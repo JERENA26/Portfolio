@@ -1,0 +1,33 @@
+#main-header img{
+    width: 370px;
+    height: 395px;
+}
+.bg-black{
+    color: white;
+    background: black;
+}
+.menu-item{
+    width: 30%;
+
+}
+.menu-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    #main-header img{
+        width:800px;
+        height: auto;
+    }
+}
+@media(max-width:991px){
+    .menu-item{
+        padding: 0 !important;
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+}
+.field{
+    font-size: 1.25rem;
+    height: 2rem;
+}
